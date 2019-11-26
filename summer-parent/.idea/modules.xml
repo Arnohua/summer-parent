@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common-example/common-example.iml" filepath="$PROJECT_DIR$/common-example/common-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-util/common-util.iml" filepath="$PROJECT_DIR$/common-util/common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul-config/consul-config.iml" filepath="$PROJECT_DIR$/consul-config/consul-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribute-lock/distribute-lock.iml" filepath="$PROJECT_DIR$/distribute-lock/distribute-lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharding-table/sharding-table.iml" filepath="$PROJECT_DIR$/sharding-table/sharding-table.iml" />
+      <module fileurl="file://$PROJECT_DIR$/summer-parent.iml" filepath="$PROJECT_DIR$/summer-parent.iml" />
+    </modules>
+  </component>
+</project>

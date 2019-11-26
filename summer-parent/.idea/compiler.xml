@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-example" />
+        <module name="common-util" />
+        <module name="consul-config" />
+        <module name="distribute-lock" />
+        <module name="sharding-table" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-example" target="1.8" />
+      <module name="common-util" target="1.8" />
+      <module name="consul-config" target="1.8" />
+      <module name="distribute-lock" target="1.8" />
+      <module name="sharding-table" target="1.8" />
+      <module name="summer-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

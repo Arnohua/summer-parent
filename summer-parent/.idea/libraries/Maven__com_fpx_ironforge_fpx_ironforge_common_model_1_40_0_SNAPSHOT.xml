@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.fpx.ironforge:fpx-ironforge-common-model:1.40.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fpx/ironforge/fpx-ironforge-common-model/1.40.0-SNAPSHOT/fpx-ironforge-common-model-1.40.0-20190509.092210-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fpx/ironforge/fpx-ironforge-common-model/1.40.0-SNAPSHOT/fpx-ironforge-common-model-1.40.0-20190509.092210-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fpx/ironforge/fpx-ironforge-common-model/1.40.0-SNAPSHOT/fpx-ironforge-common-model-1.40.0-20190509.092210-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
