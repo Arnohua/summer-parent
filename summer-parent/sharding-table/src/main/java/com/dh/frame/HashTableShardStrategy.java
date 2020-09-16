@@ -1,5 +1,6 @@
 package com.dh.frame;
 
+import com.dh.util.SqlParseBuilder;
 import org.apache.ibatis.mapping.BoundSql;
 import org.apache.ibatis.reflection.DefaultReflectorFactory;
 import org.apache.ibatis.reflection.MetaObject;
@@ -72,7 +73,7 @@ public class HashTableShardStrategy implements ITableShardStrategy {
                 throw new RuntimeException("未到表名为" + tableName + "的分表");
             }
             String newTableName = shardingTables.get(hashCode % shardingTables.size());
-            return originSql.replaceAll(tableName, newTableName);
+            return SqlParseBuilder.parse(originSql,tableName, newTableName);
         }
         return originSql;
     }
