@@ -1,5 +1,8 @@
 package com.dh.config;
 
+import com.dh.aspect.DistributeLockAspect;
+import com.dh.service.builder.DistributedLockConfigBuilder;
+import com.dh.service.factory.DistributeLockFactory;
 import org.redisson.Redisson;
 import org.redisson.api.RedissonClient;
 import org.redisson.config.ClusterServersConfig;
@@ -7,9 +10,14 @@ import org.redisson.config.Config;
 import org.redisson.config.SentinelServersConfig;
 import org.redisson.config.SingleServerConfig;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
 import org.springframework.boot.autoconfigure.data.redis.RedisProperties;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
+
 import java.util.List;
 
 /**
@@ -19,6 +27,8 @@ import java.util.List;
  */
 
 @Configuration
+@ConditionalOnBean(RedisProperties.class)
+@Import({DistributeLockAspect.class,LockConfig.class, DistributeLockFactory.class, DistributedLockConfigBuilder.class})
 public class RedissonConfig {
 
     @Autowired

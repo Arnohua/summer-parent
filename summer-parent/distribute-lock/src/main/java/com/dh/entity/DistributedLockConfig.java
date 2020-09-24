@@ -1,22 +1,73 @@
 package com.dh.entity;
 
+import com.dh.service.handler.AbstractDistributedLockHandler;
+
 import java.util.List;
 import java.util.Map;
 
 /**
- * @author Created by linl on 2017/10/28.
+ * @author dinghua
  */
 public class DistributedLockConfig {
-    Integer lockMode;
 
-    Long timeOut;
+    private Integer lockMode;
 
-    boolean automaticRelease;
+    private Long timeOut;
 
-    Long tryLockTime;
+    private boolean automaticRelease;
 
-    List<Map<String, Object>> lockKey;
+    private Long tryLockTime;
 
-    String key;
+    private String lockKey;
+
+    public Integer getLockMode() {
+        return lockMode;
+    }
+
+    public void setLockMode(Integer lockMode) {
+        this.lockMode = lockMode;
+    }
+
+    public Long getTimeOut() {
+        return timeOut;
+    }
+
+    public void setTimeOut(Long timeOut) {
+        this.timeOut = timeOut;
+    }
+
+    public boolean isAutomaticRelease() {
+        return automaticRelease;
+    }
+
+    public void setAutomaticRelease(boolean automaticRelease) {
+        this.automaticRelease = automaticRelease;
+    }
+
+    public Long getTryLockTime() {
+        return tryLockTime;
+    }
+
+    public void setTryLockTime(Long tryLockTime) {
+        this.tryLockTime = tryLockTime;
+    }
+
+    public String getLockKey() {
+        return lockKey;
+    }
+
+    public void setLockKey(String lockKey) {
+        this.lockKey = lockKey;
+    }
+
+    public AbstractDistributedLockHandler getHandler() {
+        return handler;
+    }
+
+    public void setHandler(AbstractDistributedLockHandler handler) {
+        this.handler = handler;
+    }
+
+    private AbstractDistributedLockHandler handler;
 
 }

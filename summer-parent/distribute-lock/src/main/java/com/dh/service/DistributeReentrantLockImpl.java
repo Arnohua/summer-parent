@@ -33,9 +33,4 @@ public class DistributeReentrantLockImpl extends AbstractLock {
     public void doUnLock() {
         rLock.unlock();
     }
-
-    @Override
-    public Object doProcess(ProceedingJoinPoint pjp, DistributedLockConfig distributedLockConfig) throws Exception {
-        return null;
-    }
 }

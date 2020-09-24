@@ -15,5 +15,7 @@ public @interface DistributeLock {
 
     long tryLockTime() default 0L;
 
-    String lockKey();
+    boolean automaticRelease() default true;
+
+    String handler() default "";
 }
