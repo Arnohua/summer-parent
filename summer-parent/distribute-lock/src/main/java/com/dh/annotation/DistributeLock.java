@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface DistributeLock {
 
-    int lockMode() default 1;
+    int lockMode() default 0;
 
     long timeout() default -1L;
 

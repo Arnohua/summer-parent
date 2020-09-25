@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.fpx.codeGenerator:code-generator-client:1.3.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fpx/codeGenerator/code-generator-client/1.3.0-SNAPSHOT/code-generator-client-1.3.0-20200426.020754-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fpx/codeGenerator/code-generator-client/1.3.0-SNAPSHOT/code-generator-client-1.3.0-20200426.020754-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fpx/codeGenerator/code-generator-client/1.3.0-SNAPSHOT/code-generator-client-1.3.0-20200426.020754-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

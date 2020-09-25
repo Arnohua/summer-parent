@@ -7,7 +7,8 @@ package com.dh.constant;
  */
 public class LockModeConstant {
 
-    public static final int REENTRANT = 0;
-    public static final int READWRITELOCK = 1;
-    public static final int REDLOCK = 2;
+    public static final int REENTRANT_LOCK = 0;
+    public static final int READ_LOCK = 1;
+    public static final int WRITE_LOCK = 2;
+    public static final int RED_LOCK = 3;
 }

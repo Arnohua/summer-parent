@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.fpx.security:fpx-security-spring-boot-starter:1.1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fpx/security/fpx-security-spring-boot-starter/1.1.0-SNAPSHOT/fpx-security-spring-boot-starter-1.1.0-20190313.104855-5.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fpx/security/fpx-security-spring-boot-starter/1.1.0-SNAPSHOT/fpx-security-spring-boot-starter-1.1.0-20190313.104855-5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fpx/security/fpx-security-spring-boot-starter/1.1.0-SNAPSHOT/fpx-security-spring-boot-starter-1.1.0-20190313.104855-5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

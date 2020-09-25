@@ -10,6 +10,10 @@
         <module name="common-util" />
         <module name="consul-config" />
         <module name="distribute-lock" />
+        <module name="distributed-lock-client" />
+        <module name="fpx-ironforge-financial-operation-dto" />
+        <module name="fpx-ironforge-financial-operation-service" />
+        <module name="fpx-ironforge-financial-operation-web" />
         <module name="sharding-table" />
       </profile>
     </annotationProcessing>
@@ -18,6 +22,11 @@
       <module name="common-util" target="1.8" />
       <module name="consul-config" target="1.8" />
       <module name="distribute-lock" target="1.8" />
+      <module name="distributed-lock-client" target="1.8" />
+      <module name="fpx-ironforge-financial-operation" target="1.8" />
+      <module name="fpx-ironforge-financial-operation-dto" target="1.8" />
+      <module name="fpx-ironforge-financial-operation-service" target="1.8" />
+      <module name="fpx-ironforge-financial-operation-web" target="1.8" />
       <module name="sharding-table" target="1.8" />
       <module name="summer-parent" target="1.8" />
     </bytecodeTargetLevel>

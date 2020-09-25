@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.fpx:dingtalk-client:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fpx/dingtalk-client/1.0.0-SNAPSHOT/dingtalk-client-1.0.0-20190429.082830-18.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fpx/dingtalk-client/1.0.0-SNAPSHOT/dingtalk-client-1.0.0-20190429.082830-18-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fpx/dingtalk-client/1.0.0-SNAPSHOT/dingtalk-client-1.0.0-20190429.082830-18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

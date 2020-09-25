@@ -22,16 +22,25 @@ import java.util.Map;
  * @since v1.0.0
  */
 
-@Component
 public class DistributedLockConfigBuilder {
 
     private final static String LOCK_METHOD_SEPARATOR = "#";
 
-    @Resource
     ApplicationContext applicationContext;
 
-    @Resource
     LockConfig lockConfig;
+
+    public DistributedLockConfigBuilder(){
+
+    }
+
+    public DistributedLockConfigBuilder(LockConfig lockConfig){
+        this.lockConfig = lockConfig;
+    }
+
+    public void setApplicationContext(ApplicationContext applicationContext){
+        this.applicationContext = applicationContext;
+    }
 
     public DistributedLockConfig buildLockConfig(DistributeLock distributedLock, List<Map<String, Object>> lockKeyParams, String methodFullPath) throws Exception {
         DistributedLockConfig distributedLockConfig = new DistributedLockConfig();

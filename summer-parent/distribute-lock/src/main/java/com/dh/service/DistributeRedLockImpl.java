@@ -33,9 +33,4 @@ public class DistributeRedLockImpl extends AbstractLock {
     public void doUnLock() {
         redissonRedLock.unlock();
     }
-
-    @Override
-    public Object doProcess(ProceedingJoinPoint pjp, DistributedLockConfig distributedLockConfig) throws Exception {
-        return null;
-    }
 }

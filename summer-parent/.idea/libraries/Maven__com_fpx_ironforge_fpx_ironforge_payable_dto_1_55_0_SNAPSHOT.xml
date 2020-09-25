@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.fpx.ironforge:fpx-ironforge-payable-dto:1.55.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fpx/ironforge/fpx-ironforge-payable-dto/1.55.0-SNAPSHOT/fpx-ironforge-payable-dto-1.55.0-20200722.081337-3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fpx/ironforge/fpx-ironforge-payable-dto/1.55.0-SNAPSHOT/fpx-ironforge-payable-dto-1.55.0-20200722.081337-3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/fpx/ironforge/fpx-ironforge-payable-dto/1.55.0-SNAPSHOT/fpx-ironforge-payable-dto-1.55.0-20200722.081337-3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
