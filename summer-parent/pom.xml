@@ -12,8 +12,9 @@
     <module>consul-config</module>
     <module>sharding-table</module>
     <module>common-util</module>
-      <module>common-example</module>
-      <module>distribute-lock</module>
+    <module>common-example</module>
+    <module>distribute-lock</module>
+    <module>limit-frame</module>
   </modules>
 
   <name>Maven</name>
@@ -34,47 +35,6 @@
     </dependency>
 
   </dependencies>
-
-  <distributionManagement>
-    <repository>
-      <id>nexus-releases</id>
-      <name>Nexus Releases Repository</name>
-      <url>http://172.16.30.37:8081/nexus/content/repositories/releases</url>
-    </repository>
-    <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <name>Nexus Snapshots Repository</name>
-      <url>http://172.16.30.37:8081/nexus/content/repositories/snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>
-
-  <repositories>
-    <repository>
-      <id>public</id>
-      <name>internal nexus repository</name>
-      <url>http://172.16.30.37:8081/nexus/content/groups/public/</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
-
-  <pluginRepositories>
-    <pluginRepository>
-      <id>public</id>
-      <name>plugin repository</name>
-      <url>http://172.16.30.37:8081/nexus/content/groups/public/</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </pluginRepository>
-  </pluginRepositories>
 
   <build>
     <plugins>

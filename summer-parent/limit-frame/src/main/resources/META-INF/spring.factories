@@ -1,0 +1,2 @@
+# Bootstrap Configuration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.dh.limit.config.EnableLimitConfiguration

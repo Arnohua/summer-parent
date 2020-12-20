@@ -11,6 +11,7 @@
       <module fileurl="file://F:/812/fpx-ironforge-financial-operation/fpx-ironforge-financial-operation-dto/fpx-ironforge-financial-operation-dto.iml" filepath="F:/812/fpx-ironforge-financial-operation/fpx-ironforge-financial-operation-dto/fpx-ironforge-financial-operation-dto.iml" />
       <module fileurl="file://F:/812/fpx-ironforge-financial-operation/fpx-ironforge-financial-operation-service/fpx-ironforge-financial-operation-service.iml" filepath="F:/812/fpx-ironforge-financial-operation/fpx-ironforge-financial-operation-service/fpx-ironforge-financial-operation-service.iml" />
       <module fileurl="file://F:/812/fpx-ironforge-financial-operation/fpx-ironforge-financial-operation-web/fpx-ironforge-financial-operation-web.iml" filepath="F:/812/fpx-ironforge-financial-operation/fpx-ironforge-financial-operation-web/fpx-ironforge-financial-operation-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/limit-frame/limit-frame.iml" filepath="$PROJECT_DIR$/limit-frame/limit-frame.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharding-table/sharding-table.iml" filepath="$PROJECT_DIR$/sharding-table/sharding-table.iml" />
       <module fileurl="file://$PROJECT_DIR$/summer-parent.iml" filepath="$PROJECT_DIR$/summer-parent.iml" />
     </modules>
