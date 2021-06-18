@@ -1,0 +1,4 @@
+# Bootstrap Configuration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.dh.cache.config.CacheAutoConfiguration,\
+com.dh.cache.config.RedisConfig
