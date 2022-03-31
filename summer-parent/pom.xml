@@ -24,7 +24,7 @@
     <inceptionYear>2001</inceptionYear>
 
     <properties>
-        <spring.boot.starter.web>2.1.4.RELEASE</spring.boot.starter.web>
+        <spring.boot.starter.web>2.5.12</spring.boot.starter.web>
     </properties>
 
     <dependencies>
