@@ -19,7 +19,7 @@
         <spring.cloud.context>2.1.1.RELEASE</spring.cloud.context>
         <spring.retry>1.2.4.RELEASE</spring.retry>
         <cfg4j.consul>4.4.1</cfg4j.consul>
-        <snakeyaml.version>1.23</snakeyaml.version>
+        <snakeyaml.version>1.32</snakeyaml.version>
         <spring.cloud.consul.core.version>2.1.1.RELEASE</spring.cloud.consul.core.version>
     </properties>
 
